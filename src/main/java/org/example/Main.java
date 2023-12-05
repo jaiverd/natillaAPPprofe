@@ -32,8 +32,17 @@ public class Main {
         //desde el TECLADO (Recibir datos)
         Scanner leerDato = new Scanner(System.in);
 
-        System.out.println("Hola soy una IA, cual es tu nombre?");
-        //leerDato.nextLine();
+        System.out.println("cual es tu nombre?");
+        nombreUsuario=leerDato.nextLine();
+        System.out.println("bienvenido " +nombreUsuario);
+        System.out.println("cual es tu telefono");
+        telefonoUsuario=leerDato.nextLine();
+        System.out.println("el telefono es "+telefonoUsuario);
+        System.out.println("cual es tu documento"
+        );
+        documentoIdentidad=leerDato.nextLine();
+        System.out.println("el documento es"+documentoIdentidad);
+
 
 
 
